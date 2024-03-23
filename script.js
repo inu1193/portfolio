@@ -13,3 +13,20 @@ function downloadCV() {
 
   document.body.removeChild(link);
 }
+
+$(document).ready(function () {
+  $(".progress-bar").each(function () {
+    var $bar = $(this);
+    var transitionGoal = parseInt($bar.attr("data-transitiongoal"));
+    var maxWidth = parseInt($bar.parent().css("width"));
+    var width = 0;
+    var progress = setInterval(function () {
+      width += 1; // Adjust the step size as needed
+      if (width >= transitionGoal || width >= maxWidth) {
+        clearInterval(progress);
+      } else {
+        $bar.css("width", width + "%");
+      }
+    }, 10); // Adjust the interval as needed
+  });
+});

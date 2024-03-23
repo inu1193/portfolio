@@ -232,3 +232,29 @@ a {
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
+
+.section-skills {
+    padding-bottom: 120px;
+}
+
+.skill + .skill {
+    margin-top: 50px;
+}
+
+.skill h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.progress {
+    height: 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #dfdfdf;
+    box-shadow: none;
+}
+
+.progress-bar {
+    background-color: #212121;  
+}
