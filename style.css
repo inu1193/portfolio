@@ -57,6 +57,14 @@ h2 {
     padding-bottom: 20px;
 }
 
+.myskills {
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+
 .text-container {
     display: flex;
     flex-direction: column;
@@ -233,9 +241,7 @@ a {
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.section-skills {
-    padding-bottom: 120px;
-}
+
 
 .skill + .skill {
     margin-top: 50px;
