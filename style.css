@@ -264,3 +264,19 @@ a {
 .progress-bar {
     background-color: #212121;  
 }
+
+#coming_soon {
+    width: 250px;
+    height: 250px;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 65vh; /* Adjust as needed */
+}
+
+.svgbody{
+    text-align: center;
+}
